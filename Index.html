@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
+    <style>
+    .input-box {
+        padding: 10px;
+        border: 1px solid gray;
+    }
+    #marker {
+        border: 1px solid gray;
+        padding: 5px;
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        margin: 20px 0 0 5px;
+        z-index: 999;
+    }
+    .input-box strong {
+        background-color: #EDEDED;
+        padding: 2px;
+    }
+    </style>
+    <title></title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Hi</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class='input-box' contenteditable="true" tabindex="1"> </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class='input-box' contenteditable="true" tabindex="1"> </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class='input-box' contenteditable="true" tabindex="1"> </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="inlineTagging.js"></script>
+<script>
+	document.querySelectorAll('.input-box').inlineTagging({
+		tag:'@'
+	});
+</script>
+
+</html>
