@@ -9,7 +9,6 @@ Object.prototype.inlineTagging = function(otions) {
 
 };
 
-
 var InlineTagging = function($input) {
     if (!$input)
         return;
