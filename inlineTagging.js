@@ -31,7 +31,6 @@ var InlineTagging = function($input) {
             $marker.focus();
         } else {
             cleanUp();
-            ///$input.focus();
         }
     };
 
