@@ -42,6 +42,7 @@ var InlineTagging = function($input) {
         $marker.setAttribute('id', 'marker');
         $marker.setAttribute('contenteditable', 'false');
         $marker.innerHTML = '';
+        $marker.className="panel panel-default";
         $marker.appendChild(buildList([{
             text: 'ilya'
         }, {
